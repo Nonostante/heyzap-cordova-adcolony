@@ -1,0 +1,17 @@
+repositories {
+    /** The default repository for Android Studio projects */
+    jcenter() 
+    /** The repository required for AdColony 3.0 and above */
+    maven {
+      url  "https://adcolony.bintray.com/AdColony"      
+    }
+}
+
+dependencies {
+  /** 
+   * Any other dependencies your module has are placed in this dependency configuration
+   */
+  implementation 'com.adcolony:sdk:3.3.5'
+  implementation 'com.google.android.gms:play-services-ads:15.0.1'
+  implementation 'com.android.support:support-annotations:25.0.1'
+}
